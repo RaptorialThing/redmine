@@ -1854,5 +1854,5 @@ th[role=columnheader]:not(.no-sort):hover:after {
 	opacity: 1;
 }
 h2.no_task_in_progress  div {
-    color: red;
+    color: #f96319;
 }

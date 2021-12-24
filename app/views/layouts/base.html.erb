@@ -91,9 +91,7 @@
 
     <h1><%= page_header_title %></h1>
     <h2 class="no_task_in_progress">
-    <% c = ReminderController.new; if c.check_no_task_in_progress%>
-<%= call_hook(:popup_message_show) %>
-<% end %>
+    <%= call_hook(:popup_message_show) %>
     </h2>
 
     <% if display_main_menu?(@project) %>
